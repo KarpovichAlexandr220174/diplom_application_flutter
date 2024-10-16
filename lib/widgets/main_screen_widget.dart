@@ -27,18 +27,18 @@ class _MainScreenWidgetState extends State<MainScreenWidget> {
         ),
       ),
       bottomNavigationBar: BottomNavigationBar(
-        items: [
+        items: const [
           BottomNavigationBarItem(
               icon: Icon(Icons.home),
-              label: 'Новости'
+              label: 'Главная'
           ),
           BottomNavigationBarItem(
-              icon: Icon(Icons.movie_filter),
-              label: 'Фильмы'
+              icon: Icon(Icons.money_off),
+              label: 'Список Транзакций'
           ),
           BottomNavigationBarItem(
-              icon: Icon(Icons.tv),
-              label: 'Сериалы'
+              icon: Icon(Icons.money_sharp),
+              label: 'Учет'
           ),
         ],
       ),
